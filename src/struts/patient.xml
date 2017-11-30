@@ -98,6 +98,10 @@
 		<action name="dietary_history" class="com.doerit.action.patient.PatientAction" method="registrationForm">
 			<result name="success">/WEB-INF/content/patient/diagnostic/dietary_history.jsp</result>
 		</action>
+		
+		<action name="drug_history" class="com.doerit.action.patient.PatientAction" method="registrationForm">
+			<result name="success">/WEB-INF/content/patient/diagnostic/drug_history.jsp</result>
+		</action>
 
 		<action name="medical_record" class="com.doerit.action.patient.PatientAction" method="registrationForm">
 			<result name="success">/WEB-INF/content/patient/diagnostic/medical_record.jsp</result>

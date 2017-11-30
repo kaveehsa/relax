@@ -27,7 +27,8 @@
                 </li>
     
                 <li class="investigations">
-                    <a href="#">Drug history</a>
+                     <s:url var="drug_history" action="drug_history" namespace="/patient"></s:url>
+                    <s:a  href="%{#drug_history}">Drug History</s:a>
                 </li>                            
                 <li >
                 	<s:url var="diagnoseform" action="diagnose-form" namespace="/patient"></s:url>
